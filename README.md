@@ -1,52 +1,35 @@
-# <span style="font-size:larger;">**Random Walker**</span>
+# Random Walker Simulation
+
+This Java program simulates multiple random walkers moving within a bounded area. Each walker moves randomly in four directions (up, down, left, right) at each step, and their positions are updated periodically to create a dynamic simulation.
+
+## How to Run
+
+To run the Random Walker simulation, you need to have Java installed on your system.
+
+1. Clone or download this repository to your local machine.
+2. Compile the `RandomWalker.java` file using a Java compiler. You can do this by running the following command in your terminal or command prompt:
 
 
-Random Walker is a simple Java program that simulates multiple random walkers moving within a bounded area. Each walker moves randomly in one of four directions (up, down, left, or right) at regular intervals, creating an animated effect.
-
-**Features**
-
-Simulates multiple random walkers moving independently.
-Walkers are displayed as circles on a graphical user interface (GUI).
-Periodic updates redraw the GUI to reflect the new positions of the walkers.
-Walkers cannot move beyond the boundaries of the display area.
-
-**Getting Started**
-
-To run the Random Walker program, follow these steps:
-
-Ensure you have Java Development Kit (JDK) installed on your system.
-Download the RandomWalker.java file.
+3. Run the compiled program by executing the following command:
 
 
-Compile the Java file using the following command:
+4. The simulation window will appear, showing multiple black circles representing the random walkers. They will move around randomly within the window boundaries.
 
-**javac RandomWalker.java**
+## Program Description
 
+- Each walker starts at the center of the simulation area.
+- At each step, each walker randomly chooses one of four directions (up, down, left, right) and moves in that direction by a fixed step size.
+- The program ensures that the walkers stay within the boundaries of the simulation area.
+- The simulation continues indefinitely until you close the window.
 
-Run the compiled program with the following command:
+## About Random Walkers
 
-**java RandomWalker**
+Random walks are mathematical processes where a variable moves randomly from one position to another. They have applications in various fields, including physics, biology, finance, and computer science.
 
-**Usage**
+## References
 
-Once the program is running, you'll see a window titled "Random Walkers" displaying the animated movement of multiple circles representing the walkers. The walkers move randomly within the confines of the window.
+- [Random Walk - Wikipedia](https://en.wikipedia.org/wiki/Random_walk)
 
-**Customization**
-
-You can customize the behavior of the program by adjusting the following parameters in the RandomWalker class:
-
-**WIDTH and HEIGHT**: Set the dimensions of the display area.
-
-
-**STEP_SIZE**: Define the distance each walker moves in each step.
-
-
-**NUM_WALKERS**: Specify the number of walkers to simulate.
-
-
-**Dependencies**
-
-The Random Walker program uses Swing for the graphical user interface.
 
 
 **SCREENSHOTS**
